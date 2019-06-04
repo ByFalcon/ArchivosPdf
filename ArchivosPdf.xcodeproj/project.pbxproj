@@ -14,6 +14,8 @@
 		CE066EE0220F3FD20057E7D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE066EDE220F3FD20057E7D4 /* LaunchScreen.storyboard */; };
 		CE066EEB220F3FD20057E7D4 /* ArchivosPdfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE066EEA220F3FD20057E7D4 /* ArchivosPdfTests.swift */; };
 		CE066EF6220F3FD20057E7D4 /* ArchivosPdfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE066EF5220F3FD20057E7D4 /* ArchivosPdfUITests.swift */; };
+		CE066F06220F5A350057E7D4 /* Vista3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE066F05220F5A350057E7D4 /* Vista3ViewController.swift */; };
+		CE2152B02228526500814C20 /* Celda.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2152AF2228526500814C20 /* Celda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65749A3F22A707A50013428C /* 3 Estados y Metodos de Hilos en Java.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "3 Estados y Metodos de Hilos en Java.pdf"; path = "../../../../../Downloads/3 Estados y Metodos de Hilos en Java.pdf"; sourceTree = "<group>"; };
+		65749A4022A707B30013428C /* 5_Hilos_en_Android.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 5_Hilos_en_Android.pdf; sourceTree = "<group>"; };
+		65749A4122A707B70013428C /* 12_Sockets.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 12_Sockets.pdf; sourceTree = "<group>"; };
 		CE066ED2220F3FD20057E7D4 /* ArchivosPdf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchivosPdf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE066ED5220F3FD20057E7D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE066ED7220F3FD20057E7D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,8 @@
 		CE066EF1220F3FD20057E7D4 /* ArchivosPdfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchivosPdfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE066EF5220F3FD20057E7D4 /* ArchivosPdfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivosPdfUITests.swift; sourceTree = "<group>"; };
 		CE066EF7220F3FD30057E7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE066F05220F5A350057E7D4 /* Vista3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vista3ViewController.swift; sourceTree = "<group>"; };
+		CE2152AF2228526500814C20 /* Celda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65749A3722A706CF0013428C /* pdfs */ = {
+			isa = PBXGroup;
+			children = (
+				65749A4122A707B70013428C /* 12_Sockets.pdf */,
+				65749A4022A707B30013428C /* 5_Hilos_en_Android.pdf */,
+				65749A3F22A707A50013428C /* 3 Estados y Metodos de Hilos en Java.pdf */,
+			);
+			path = pdfs;
+			sourceTree = "<group>";
+		};
 		CE066EC9220F3FD10057E7D4 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +114,12 @@
 		CE066ED4220F3FD20057E7D4 /* ArchivosPdf */ = {
 			isa = PBXGroup;
 			children = (
+				65749A3722A706CF0013428C /* pdfs */,
 				CE066ED5220F3FD20057E7D4 /* AppDelegate.swift */,
 				CE066ED7220F3FD20057E7D4 /* ViewController.swift */,
 				CE066ED9220F3FD20057E7D4 /* Main.storyboard */,
+				CE2152AF2228526500814C20 /* Celda.swift */,
+				CE066F05220F5A350057E7D4 /* Vista3ViewController.swift */,
 				CE066EDC220F3FD20057E7D4 /* Assets.xcassets */,
 				CE066EDE220F3FD20057E7D4 /* LaunchScreen.storyboard */,
 				CE066EE1220F3FD20057E7D4 /* Info.plist */,
@@ -261,6 +281,8 @@
 			files = (
 				CE066ED8220F3FD20057E7D4 /* ViewController.swift in Sources */,
 				CE066ED6220F3FD20057E7D4 /* AppDelegate.swift in Sources */,
+				CE066F06220F5A350057E7D4 /* Vista3ViewController.swift in Sources */,
+				CE2152B02228526500814C20 /* Celda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
